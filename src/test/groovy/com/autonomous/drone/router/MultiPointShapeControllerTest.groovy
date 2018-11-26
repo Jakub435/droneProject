@@ -1,8 +1,15 @@
 package com.autonomous.drone.router
 
 import com.autonomous.drone.DroneApplication
+import com.autonomous.drone.customEnum.PermissionEnum
+import com.autonomous.drone.customEnum.RoleEnum
 import com.autonomous.drone.persistance.mongoDb.domain.MultiPointShape
 import com.autonomous.drone.persistance.mongoDb.repository.MultiPointShapeRepository
+import com.autonomous.drone.persistance.postgreSql.domain.Permission
+import com.autonomous.drone.persistance.postgreSql.domain.Role
+import com.autonomous.drone.persistance.postgreSql.domain.User
+import com.autonomous.drone.persistance.postgreSql.repository.TokenStoreRepository
+import com.autonomous.drone.service.TokenService
 import groovyx.net.http.RESTClient
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.context.SpringBootTest
@@ -21,12 +28,19 @@ import static groovyx.net.http.ContentType.*
 @ContextConfiguration
 class MultiPointShapeControllerTest extends Specification{
 
-    private RESTClient restClient = new RESTClient("http://localhost:8080/api/shape/", JSON)
+    private RESTClient restClient = new RESTClient("http://localhost:8080/api/shape/")
 
     @Autowired
-    MultiPointShapeRepository multiPointShapeRepository;
+    MultiPointShapeRepository multiPointShapeRepository
+
+    @Autowired
+    TokenService tokenService
+
+    @Autowired
+    TokenStoreRepository tokenStoreRepository
 
     private def record_id
+    private def token
 
     def setup() {
         setup: "add record to DB"
@@ -44,6 +58,26 @@ class MultiPointShapeControllerTest extends Specification{
 
             def record = multiPointShapeRepository.save(multiPointShape)
             record_id = record.id
+
+            User user = new User()
+            Role role = new Role()
+            Set<Role> roles = new HashSet<>()
+            Set<Permission> permission = new HashSet<>()
+
+            permission.add(new Permission(PermissionEnum.FIRST_PERMISSION.toString()))
+            permission.add(new Permission(PermissionEnum.SECOND_PERMISSION.toString()))
+            permission.add(new Permission(PermissionEnum.THIRD_PERMISSION.toString()))
+
+            role.setName(RoleEnum.ADMIN.toString())
+            role.setPermissions(permission)
+            roles.add(role)
+
+            user.id = 213123
+            user.password = "pass"
+            user.username = "adminTest"
+            user.setRoles(roles)
+
+            token = tokenService.createToken(user)
     }
 
     def cleanup() {
@@ -61,7 +95,8 @@ class MultiPointShapeControllerTest extends Specification{
                     body:[
                             type: 'MultiPoint',
                             coordinates:"[ [100.0, 0.0], [101.0, 1.0] ]"
-                    ]
+                    ],
+                    headers: ["Authorization" : token]
             )
 
         then: "Status is 200"
@@ -97,28 +132,29 @@ class MultiPointShapeControllerTest extends Specification{
                     body:[
                             type: 'MultiPoint',
                             coordinates: coordinates
-                    ]
+                    ],
+                    headers: ["Authorization" : token]
             )
 
-        then: "Status is #expectedStatus and message is #message"
+        then: "Status is #expectedStatus"
             assert response.status == expectedStatus
-            assert response.data.message == message
 
         and: "Number of records in DB should be the same"
             assert count == multiPointShapeRepository.count()
 
         where:
-            expectedStatus | coordinates        | message
-            400            | "[[100.0, 0.0]]"   | "Minumum of 2 Points required"
-            400            | ""                 | "Minumum of 2 Points required"
-            400            | "[100.0, 0.0]"     | "Coordinates must be an array of Points"
+            expectedStatus | coordinates
+            403            | "[[100.0, 0.0]]"
+            403            | ""
+            403            | "[100.0, 0.0]"
     }
 
     def "GetMultiPointShapeById with correct path Should return proper body"(){
         when: "GET request with correct id"
             def response = restClient.get(
                     path: record_id + "/",
-                    requestContentType: JSON
+                    requestContentType: JSON,
+                    headers: ["Authorization" : token]
             )
         then: "Status is 200"
             assert response.status == 200
@@ -141,14 +177,12 @@ class MultiPointShapeControllerTest extends Specification{
         when: "GET request with correct id"
             def response = restClient.get(
                     path: "incorrectPath/",
-                    requestContentType: JSON
+                    requestContentType: JSON,
+                    headers: ["Authorization" : token]
             )
 
-        then: "Status is 404"
-            assert response.status == 404
-
-        and: "Body contain correct value"
-            assert response.data.message == "Record not found"
+        then: "Status is 403"
+            assert response.status == 403
     }
 
 
@@ -160,7 +194,8 @@ class MultiPointShapeControllerTest extends Specification{
                     body: [
                             type: 'MultiPoint',
                             coordinates: "[ [111.0, 1.0], [222.0, 2.0] ]"
-                    ]
+                    ],
+                    headers: ["Authorization" : token]
             )
 
         then: "Status is 200"
@@ -187,14 +222,12 @@ class MultiPointShapeControllerTest extends Specification{
                     body: [
                             type: 'MultiPoint',
                             coordinates: Sendingcoordinates
-                    ]
+                    ],
+                    headers: ["Authorization" : token]
             )
 
         then: "Check status"
             assert response.status == expectedStatus
-
-        and: "Check message"
-            assert response.data.message == expectedMessage
 
         and: "Multipoint at DB should not change"
             def coordinates = multiPointShapeRepository
@@ -211,19 +244,20 @@ class MultiPointShapeControllerTest extends Specification{
             assert coordinates[2].y == 300
 
         where:
-        path            | Sendingcoordinates                | expectedStatus    | expectedMessage
-        ""              | "[ [111.0, 1.0] ]"                | 400               | "Minumum of 2 Points required"
-        ""              | "[111.0, 1.0]"                    | 400               | "Coordinates must be an array of Points"
-        "incorrectId"   | "[ [111.0, 1.0], [222.0, 2.0] ]"  | 404               | "Record not found"
-        "incorrectId"   | "[ [111.0, 1.0] ]"                | 400               | "Minumum of 2 Points required"
-        "incorrectId"   | "[111.0, 1.0]"                    | 400               | "Coordinates must be an array of Points"
+        path            | Sendingcoordinates                | expectedStatus
+        ""              | "[ [111.0, 1.0] ]"                | 403
+        ""              | "[111.0, 1.0]"                    | 403
+        "incorrectId"   | "[ [111.0, 1.0], [222.0, 2.0] ]"  | 403
+        "incorrectId"   | "[ [111.0, 1.0] ]"                | 403
+        "incorrectId"   | "[111.0, 1.0]"                    | 403
     }
 
 
     def "DeleteMultiPointShape with correct id"() {
         when:
             def response = restClient.delete(
-                    path: record_id + "/"
+                    path: record_id + "/",
+                    headers: ["Authorization" : token]
             )
 
         then: "status is 200"
@@ -236,13 +270,11 @@ class MultiPointShapeControllerTest extends Specification{
     def "DeleteMultiPointShape with incorrect id"() {
         when:
             def response = restClient.delete(
-                    path: "incorrectPath/"
+                    path: "incorrectPath/",
+                    headers: ["Authorization" : token]
             )
 
-        then: "Status is 404 NOT FOUND"
-            assert response.status == 404
-
-        and: "message is 'Record not found' "
-            assert response.data.message == "Record not found"
+        then: "Status is 403"
+            assert response.status == 403
     }
 }

@@ -21,17 +21,17 @@ public class MultiPointShape {
 
     @JsonCreator
     public MultiPointShape(
-            @JsonProperty(value = "coordinates", required = true) JsonNode node) {
+            @JsonProperty(value = "coordinates", required = true) JsonNode node) throws Minimum2PointsException {
         List<Point> pointList = new ArrayList<>();
 
         try {
-        for (JsonNode coordinate:node) {
-            Point point = new Point(
-                    coordinate.get(0).doubleValue(),
-                    coordinate.get(1).doubleValue());
+            for (JsonNode coordinate:node) {
+                Point point = new Point(
+                        coordinate.get(0).doubleValue(),
+                        coordinate.get(1).doubleValue());
 
-            pointList.add(point);
-        }
+                pointList.add(point);
+            }
             geoJsonMultiPoint = new GeoJsonMultiPoint(pointList);
         }catch (IllegalArgumentException exception){
             exception.printStackTrace();

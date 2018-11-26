@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="665f6056-8dc9-4ed2-b618-afc917f517a7" name="Default Changelist" comment="" />
+    <list default="true" id="665f6056-8dc9-4ed2-b618-afc917f517a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_postgresql_postgresql_9_4_1201_jdbc41.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_aspectj_aspectjrt_1_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_data_spring_data_jpa_2_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_orm_5_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/drone_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/drone_main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/drone_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/drone_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/autonomous/drone/customException/Minimum2PointsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/autonomous/drone/customException/Minimum2PointsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/autonomous/drone/persistance/mongoDb/domain/MultiPointShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/autonomous/drone/persistance/mongoDb/domain/MultiPointShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/autonomous/drone/router/MultiPointShapeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/autonomous/drone/router/MultiPointShapeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/autonomous/drone/service/MultiPointShapeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/autonomous/drone/service/MultiPointShapeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/autonomous/drone/router/MultiPointShapeControllerTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/com/autonomous/drone/router/MultiPointShapeControllerTest.groovy" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -10,6 +27,20 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -64,28 +95,66 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="720440846">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.54" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gradle" value="14" />
+          <entry key="groovy" value="30" />
+          <entry key="iml" value="2" />
+          <entry key="java" value="181" />
+          <entry key="properties" value="11" />
+          <entry key="sql" value="11" />
+          <entry key="yml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Groovy" value="44" />
+          <entry key="IDEA_MODULE" value="2" />
+          <entry key="JAVA" value="181" />
+          <entry key="Properties" value="11" />
+          <entry key="SQL" value="11" />
+          <entry key="YAML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="106" />
+          <entry key="gradle" value="27" />
+          <entry key="groovy" value="7070" />
+          <entry key="java" value="10438" />
+          <entry key="properties" value="280" />
+          <entry key="sql" value="279" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Groovy" value="7097" />
+          <entry key="JAVA" value="10438" />
+          <entry key="PLAIN_TEXT" value="106" />
+          <entry key="Properties" value="280" />
+          <entry key="SQL" value="279" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/com/autonomous/drone/router/MultiPointShapeControllerTest.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="247" column="1" lean-forward="true" selection-start-line="247" selection-start-column="1" selection-end-line="247" selection-end-column="1" />
+            <state relative-caret-position="1257">
+              <caret line="86" column="8" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="8" />
               <folding>
                 <element signature="e#37#81#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/autonomous/drone/service/MultiPointShapeServiceTest.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="18" column="55" lean-forward="true" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
-              <folding>
-                <element signature="e#38#99#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,6 +165,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -107,7 +178,18 @@
       <find>geojson</find>
       <find>geojsonmultipoin</find>
       <find>geojsonMultipoint</find>
+      <find>ALLOWED</find>
+      <find>true</find>
+      <find>===================== Allowed =======================</find>
+      <find>userRepository</find>
+      <find>UserRepo</find>
+      <find>enum</find>
+      <find>Noper</find>
+      <find>response.da</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -354,9 +436,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6167614435451" />
+        <entry key="$PROJECT_DIR$" value="6168950830690" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="3467622425" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="2077328799" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2077093676" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="3507421474" />
       </map>
@@ -559,34 +641,64 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/persistance/mongoDb/MultiPointShape.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/persistance/mongoDb/MongoRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/persistance/mongoDb/MultiPointShapeRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/router/MultiPointShapeRouter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/customException/MInimum2PointsRequired.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/autonomous/drone/routerTest/MultiPointControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/groovy/routerTest/MultiPointControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/autonomous/drone/DroneApplicationTests.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/DroneApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/persistance/mongoDb/repository/MultiPointShapeRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/customException/Minimum2PointsException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/customException/CoordinateArrayException.java" />
-        <option value="$PROJECT_DIR$/src/test/groovy/MultiPointControllerTest.groovy" />
-        <option value="$PROJECT_DIR$/src/test/groovy/com/autonomous/drone/routerTest/MultiPointControllerTest.groovy" />
-        <option value="$PROJECT_DIR$/src/test/groovy/com/autonomous/drone/MultiPointControllerTest.groovy" />
-        <option value="$PROJECT_DIR$/src/test/groovy/com/autonomous/drone/routerTest/routerTest/MultiPointControllerTest.groovy" />
-        <option value="$PROJECT_DIR$/src/test/groovy/com/autonomous/drone/routerTest/serviceTest/MultiPointServiceTest.groovy" />
-        <option value="$PROJECT_DIR$/src/test/groovy/com/autonomous/drone/router/test.groovy" />
+        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/persistance/postgreSql/domain/RolePermission.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/persistance/postgreSql/repository/RoleRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/persistance/postgreSql/repository/PermissionRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/RequestModel/UserRequestModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/customException/NotFoundException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/customException/UserExistsException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/customException/UsernameOrPasswordException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/customException/NoUsernameOrPasswordException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/router/UsersController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/customException/CoordinateArrayException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/config/AuthorizationServerConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/config/ResourceServerConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/persistance/postgreSql/repository/TokenAuthenticationRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/persistance/postgreSql/domain/Token.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/InitData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/customEnum/PermissionEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/StartUpInit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/persistance/postgreSql/repository/TokenStoreRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/persistance/postgreSql/domain/TokenObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/config/InterceptorConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/intercepter/Secure.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/validator/AuthorizationValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/persistance/postgreSql/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/customException/NoPermissionException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/customException/Minimum2PointsException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/persistance/mongoDb/domain/MultiPointShape.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/customEnum/RoleEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/persistance/postgreSql/domain/Role.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/persistance/postgreSql/domain/Permission.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/data.sql" />
+        <option value="$PROJECT_DIR$/src/test/groovy/com/autonomous/drone/service/UserServiceTest.groovy" />
+        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/service/LoginService.java" />
+        <option value="$PROJECT_DIR$/src/test/groovy/com/autonomous/drone/service/LoginServiceTest.groovy" />
+        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/config/WebMvcConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/service/LogoutService.java" />
+        <option value="$PROJECT_DIR$/src/test/groovy/com/autonomous/drone/service/RegisterServiceTest.groovy" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/service/TokenService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/persistance/postgreSql/domain/User.java" />
+        <option value="$PROJECT_DIR$/src/test/groovy/com/autonomous/drone/service/TokenServiceTest.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/com/autonomous/drone/service/LogoutServiceTest.groovy" />
+        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/intercepter/PermissionSecure.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/router/AuthController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/intercepter/PermissionInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/router/MultiPointShapeController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/service/MultiPointShapeService.java" />
-        <option value="$PROJECT_DIR$/src/test/groovy/com/autonomous/drone/service/MultiPointShapeServiceTest.groovy" />
+        <option value="$PROJECT_DIR$/src/main/java/com/autonomous/drone/service/RegisterService.java" />
+        <option value="$PROJECT_DIR$/src/test/groovy/com/autonomous/drone/router/AuthControllerTest.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/com/autonomous/drone/router/MultiPointShapeControllerTest.groovy" />
       </list>
     </option>
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="All in drone_test" />
+    </enabled-run-configurations>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -595,123 +707,71 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="951" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+    <option name="x" value="-8" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="drone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="drone" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="droneProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="drone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="drone" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="droneProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="docker-db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="drone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="droneProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="drone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="drone" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="droneProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="drone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="drone" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="drone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="drone" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="droneProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="drone" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="drone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="drone" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="droneProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="drone" type="462c0819:PsiDirectoryNode" />
-              <item name="customException" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="drone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="drone" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="drone" type="462c0819:PsiDirectoryNode" />
-              <item name="persistance" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="drone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="drone" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="drone" type="462c0819:PsiDirectoryNode" />
-              <item name="persistance" type="462c0819:PsiDirectoryNode" />
-              <item name="mongoDb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="drone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="drone" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="drone" type="462c0819:PsiDirectoryNode" />
-              <item name="persistance" type="462c0819:PsiDirectoryNode" />
-              <item name="mongoDb" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="drone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="drone" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="drone" type="462c0819:PsiDirectoryNode" />
-              <item name="router" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="drone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="drone" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="drone" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="drone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="drone" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="droneProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="drone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="drone" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="droneProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="groovy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="drone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="drone" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="droneProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="groovy" type="462c0819:PsiDirectoryNode" />
@@ -719,27 +779,19 @@
             </path>
             <path>
               <item name="drone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="drone" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="droneProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="groovy" type="462c0819:PsiDirectoryNode" />
               <item name="drone" type="462c0819:PsiDirectoryNode" />
               <item name="router" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="drone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="drone" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="groovy" type="462c0819:PsiDirectoryNode" />
-              <item name="drone" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -750,11 +802,11 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542314240915" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543224846048" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Spock" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Spock" value="spock.lang.Specification" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/groovy/com/autonomous/drone/router" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../jwt/springboot-jwt-sample-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -763,6 +815,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.autonomous.drone.service" />
       <recent name="com.autonomous.drone.router" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -771,6 +824,9 @@
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="spock.lang.Specification" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jakub\Desktop\github\drone\droneProject\src\main\java\com\autonomous\drone\persistance\postgreSql" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -785,7 +841,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in drone_test">
+  <component name="RunManager" selected="JUnit.com.autonomous.drone.service in drone_test">
     <configuration name="All in drone_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="drone_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -808,37 +864,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiPointShapeServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="com.autonomous.drone in drone_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="drone_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.autonomous.drone.service.*" />
+          <option name="PATTERN" value="com.autonomous.drone.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.autonomous.drone.service" />
-      <option name="MAIN_CLASS_NAME" value="com.autonomous.drone.service.MultiPointShapeServiceTest" />
+      <option name="PACKAGE_NAME" value="com.autonomous.drone" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiPointShapeServiceTest.UpdateMultiPointShapeById with correct Id should update data" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="com.autonomous.drone.router in drone_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="drone_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.autonomous.drone.service.*" />
+          <option name="PATTERN" value="com.autonomous.drone.router.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.autonomous.drone.service" />
-      <option name="MAIN_CLASS_NAME" value="com.autonomous.drone.service.MultiPointShapeServiceTest" />
-      <option name="METHOD_NAME" value="UpdateMultiPointShapeById with correct Id should update data" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.autonomous.drone.router" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiPointShapeServiceTest.UpdateMultiPointShapeById with incorrect Id should thrown exception" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="com.autonomous.drone.service in drone_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="drone_test" />
       <extension name="coverage">
         <pattern>
@@ -847,9 +901,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.autonomous.drone.service" />
-      <option name="MAIN_CLASS_NAME" value="com.autonomous.drone.service.MultiPointShapeServiceTest" />
-      <option name="METHOD_NAME" value="UpdateMultiPointShapeById with incorrect Id should thrown exception" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -864,18 +916,18 @@
     <list>
       <item itemvalue="Spring Boot.DroneApplication" />
       <item itemvalue="JUnit.MultiPointShapeControllerTest" />
-      <item itemvalue="JUnit.MultiPointShapeServiceTest" />
-      <item itemvalue="JUnit.MultiPointShapeServiceTest.UpdateMultiPointShapeById with correct Id should update data" />
-      <item itemvalue="JUnit.MultiPointShapeServiceTest.UpdateMultiPointShapeById with incorrect Id should thrown exception" />
       <item itemvalue="JUnit.All in drone_test" />
+      <item itemvalue="JUnit.com.autonomous.drone in drone_test" />
+      <item itemvalue="JUnit.com.autonomous.drone.router in drone_test" />
+      <item itemvalue="JUnit.com.autonomous.drone.service in drone_test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in drone_test" />
-        <item itemvalue="JUnit.MultiPointShapeServiceTest" />
-        <item itemvalue="JUnit.MultiPointShapeServiceTest.UpdateMultiPointShapeById with incorrect Id should thrown exception" />
-        <item itemvalue="JUnit.MultiPointShapeServiceTest.UpdateMultiPointShapeById with correct Id should update data" />
+        <item itemvalue="JUnit.com.autonomous.drone.service in drone_test" />
         <item itemvalue="JUnit.MultiPointShapeControllerTest" />
+        <item itemvalue="JUnit.com.autonomous.drone.router in drone_test" />
+        <item itemvalue="JUnit.com.autonomous.drone in drone_test" />
+        <item itemvalue="JUnit.All in drone_test" />
       </list>
     </recent_temporary>
   </component>
@@ -890,47 +942,48 @@
       <option name="presentableId" value="Default" />
       <updated>1541855209199</updated>
       <workItem from="1541855212722" duration="67361000" />
+      <workItem from="1542314521234" duration="885000" />
+      <workItem from="1542728271211" duration="140152000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MultiPointShapeControllerTest - 2018.11.15 at 21h 13m 20s.xml">
+    <history-entry file="AuthControllerTest - 2018.11.26 at 09h 43m 53s.xml">
+      <configuration name="AuthControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AuthControllerTest - 2018.11.26 at 09h 45m 01s.xml">
+      <configuration name="AuthControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MultiPointShapeControllerTest - 2018.11.26 at 09h 46m 41s.xml">
       <configuration name="MultiPointShapeControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MultiPointShapeServiceTest - 2018.11.15 at 21h 14m 02s.xml">
-      <configuration name="MultiPointShapeServiceTest" configurationId="JUnit" />
+    <history-entry file="MultiPointShapeControllerTest - 2018.11.26 at 09h 49m 20s.xml">
+      <configuration name="MultiPointShapeControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MultiPointShapeServiceTest_UpdateMultiPointShapeById_with_correct_Id_should_update_data - 2018.11.15 at 21h 15m 05s.xml">
-      <configuration name="MultiPointShapeServiceTest.UpdateMultiPointShapeById with correct Id should update data" configurationId="JUnit" />
+    <history-entry file="MultiPointShapeControllerTest - 2018.11.26 at 09h 51m 49s.xml">
+      <configuration name="MultiPointShapeControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MultiPointShapeServiceTest_UpdateMultiPointShapeById_with_correct_Id_should_update_data - 2018.11.15 at 21h 16m 03s.xml">
-      <configuration name="MultiPointShapeServiceTest.UpdateMultiPointShapeById with correct Id should update data" configurationId="JUnit" />
+    <history-entry file="All_in_drone_test - 2018.11.26 at 09h 55m 21s.xml">
+      <configuration name="All in drone_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MultiPointShapeServiceTest_UpdateMultiPointShapeById_with_correct_Id_should_update_data - 2018.11.15 at 21h 20m 23s.xml">
-      <configuration name="MultiPointShapeServiceTest.UpdateMultiPointShapeById with correct Id should update data" configurationId="JUnit" />
+    <history-entry file="com_autonomous_drone_in_drone_test - 2018.11.26 at 09h 59m 30s.xml">
+      <configuration name="com.autonomous.drone in drone_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MultiPointShapeServiceTest_UpdateMultiPointShapeById_with_correct_Id_should_update_data - 2018.11.15 at 21h 22m 07s.xml">
-      <configuration name="MultiPointShapeServiceTest.UpdateMultiPointShapeById with correct Id should update data" configurationId="JUnit" />
+    <history-entry file="com_autonomous_drone_router_in_drone_test - 2018.11.26 at 10h 03m 07s.xml">
+      <configuration name="com.autonomous.drone.router in drone_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MultiPointShapeServiceTest_UpdateMultiPointShapeById_with_correct_Id_should_update_data - 2018.11.15 at 21h 23m 23s.xml">
-      <configuration name="MultiPointShapeServiceTest.UpdateMultiPointShapeById with correct Id should update data" configurationId="JUnit" />
+    <history-entry file="MultiPointShapeControllerTest - 2018.11.26 at 10h 04m 08s.xml">
+      <configuration name="MultiPointShapeControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MultiPointShapeServiceTest_UpdateMultiPointShapeById_with_correct_Id_should_update_data - 2018.11.15 at 21h 26m 36s.xml">
-      <configuration name="MultiPointShapeServiceTest.UpdateMultiPointShapeById with correct Id should update data" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MultiPointShapeServiceTest_UpdateMultiPointShapeById_with_incorrect_Id_should_thrown_exception - 2018.11.15 at 21h 28m 14s.xml">
-      <configuration name="MultiPointShapeServiceTest.UpdateMultiPointShapeById with incorrect Id should thrown exception" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MultiPointShapeServiceTest - 2018.11.15 at 21h 31m 06s.xml">
-      <configuration name="MultiPointShapeServiceTest" configurationId="JUnit" />
+    <history-entry file="com_autonomous_drone_service_in_drone_test - 2018.11.26 at 10h 04m 45s.xml">
+      <configuration name="com.autonomous.drone.service in drone_test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67361000" />
+    <option name="totallyTimeSpent" value="208398000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -938,23 +991,23 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.24362417" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.23020135" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.32907802" />
-      <window_info anchor="bottom" id="Java Enterprise" order="4" />
-      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32907802" />
-      <window_info anchor="bottom" id="Message" order="8" />
-      <window_info anchor="bottom" id="Find" order="9" weight="0.26950353" />
-      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.25957447" />
-      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="bottom" id="Spring" order="0" weight="0.32907802" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32907802" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.13049646" />
+      <window_info anchor="bottom" id="Java Enterprise" order="3" weight="0.32907802" />
+      <window_info anchor="bottom" id="Database Changes" order="4" weight="0.32907802" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info anchor="bottom" id="Build" order="6" weight="0.32907802" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.26666668" />
+      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49932885" visible="true" weight="0.27375886" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50067115" side_tool="true" weight="0.26241136" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Maven Projects" order="1" />
       <window_info anchor="right" id="Gradle" order="2" />
@@ -975,94 +1028,252 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/persistance/a.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/RequestModel/UserRequestModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        <state relative-caret-position="238">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding>
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/service/MultiPointShapeService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/customException/CoordinateArrayException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="85">
+          <caret line="6" column="68" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/router/MultiPointShapeRouter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/config/SecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        <state relative-caret-position="136">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1203#1228#1" expanded="true" />
+            <element signature="e#1273#1304#1" expanded="true" />
+            <element signature="e#1356#1384#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/config/ResourceServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#909#939#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/config/AuthorizationServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="46" column="28" lean-forward="true" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1213#1240#1" expanded="true" />
+            <element signature="e#1283#1314#1" expanded="true" />
+            <element signature="e#1361#1389#1" expanded="true" />
+            <element signature="e#1433#1461#1" expanded="true" />
+            <element signature="e#1505#1534#1" expanded="true" />
+            <element signature="e#1589#1619#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/persistance/postgreSql/repository/RoleRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/autonomous/drone/routerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dbInit/import.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/customException.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/InitData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/routerTest/MultiPointControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/persistance/postgreSql/repository/TokenStoreRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/autonomous/drone/s.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.12/6ad708861bf197280cec9241c1ade032def91b91/tomcat-embed-core-9.0.12-sources.jar!/javax/servlet/http/HttpServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        <state relative-caret-position="112">
+          <caret line="659" selection-start-line="659" selection-end-line="659" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-test/5.1.2.RELEASE/7f8ba1aa5c6cc053e1ac6d68ab677e08b0870bc3/spring-test-5.1.2.RELEASE-sources.jar!/org/springframework/test/context/cache/DefaultCacheAwareContextLoaderDelegate.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/validator/AuthorizationValidator.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/persistance/postgreSql/domain/TokenObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="116" selection-start-line="116" selection-end-line="116" />
+        <state relative-caret-position="238">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/2.1.0.RELEASE/d62288e578b128c1be43de91cf65d6922220befb/spring-boot-2.1.0.RELEASE-sources.jar!/org/springframework/boot/web/servlet/context/ServletWebServerApplicationContext.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/persistance/postgreSql/repository/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="203" selection-start-line="203" selection-end-line="203" />
+        <state>
+          <caret column="36" selection-start-column="36" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/customEnum/PermissionEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/DroneApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="136">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
             <element signature="e#318#319#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/service/MultiPointShapeService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="56" selection-start-column="56" selection-end-column="56" />
+        <state relative-caret-position="255">
+          <caret line="15" column="63" lean-forward="true" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/persistance/mongoDb/repository/MultiPointShapeRepository.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.12/6ad708861bf197280cec9241c1ade032def91b91/tomcat-embed-core-9.0.12-sources.jar!/org/apache/tomcat/util/threads/TaskThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/persistance/postgreSql/domain/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
+            <element signature="e#1089#1090#0" expanded="true" />
+            <element signature="e#1129#1130#0" expanded="true" />
+            <element signature="e#1161#1162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/customEnum/RoleEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/customException/Minimum2PointsException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/persistance/mongoDb/domain/MultiPointShape.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="90" selection-start-line="10" selection-start-column="90" selection-end-line="10" selection-end-column="90" />
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/persistance/postgreSql/domain/Permission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/customException/NotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/autonomous/drone/service/MultiPointShapeServiceTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding>
+            <element signature="e#38#99#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/customException/UserExistsException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1071,85 +1282,163 @@
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy.modules.http-builder/http-builder/0.7.1/a7396f0103337835621526d95021afc06c65c7b2/http-builder-0.7.1-sources.jar!/groovyx/net/http/HTTPBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="502" selection-start-line="502" selection-end-line="502" />
+        <state relative-caret-position="126">
+          <caret line="559" selection-start-line="559" selection-end-line="559" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/autonomous/drone/service/UserServiceTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="153">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/autonomous/drone/routerTest/a.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/customException/CoordinateArrayException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="91" selection-start-line="5" selection-start-column="91" selection-end-line="5" selection-end-column="91" />
+        <state relative-caret-position="323">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/autonomous/drone/router/MultiPointShapeControllerTest.groovy">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/customException/InvalidUsernameOrPasswordException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="81" column="55" lean-forward="true" selection-start-line="81" selection-start-column="55" selection-end-line="81" selection-end-column="55" />
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/config/WebMvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
-            <element signature="e#37#81#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/autonomous/drone/router/test.groovy">
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/autonomous/drone/service/LoginServiceTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        <state relative-caret-position="312">
+          <caret line="45" column="4" lean-forward="true" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+          <folding>
+            <element signature="e#38#116#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/autonomous/drone/DroneApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/service/LogoutService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/StartUpInit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/customException/Minimum2PointsException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="12" selection-start-line="5" selection-end-line="6" />
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/persistance/mongoDb/domain/MultiPointShape.java">
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/autonomous/drone/service/RegisterServiceTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="64" column="36" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="36" />
+        <state relative-caret-position="245">
+          <caret line="28" column="47" lean-forward="true" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1648#1649#0" expanded="true" />
-            <element signature="e#1706#1707#0" expanded="true" />
+            <element signature="e#38#101#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/customException/NotFoundException.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        <state relative-caret-position="153">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.spockframework/spock-core/1.1-groovy-2.4/2b08ca54637337988a8da795c6dc3f66d2810ebb/spock-core-1.1-groovy-2.4-sources.jar!/org/spockframework/runtime/BaseSpecRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="245" selection-start-line="245" selection-end-line="245" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/persistance/postgreSql/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/service/TokenService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/autonomous/drone/service/TokenServiceTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding>
+            <element signature="e#38#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/autonomous/drone/service/LogoutServiceTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
+          <folding>
+            <element signature="e#38#99#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/service/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/intercepter/PermissionSecure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/intercepter/PermissionInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="35" column="10" lean-forward="true" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1158,38 +1447,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/router/MultiPointShapeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="43" column="59" lean-forward="true" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
+        <state relative-caret-position="136">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/service/MultiPointShapeService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/router/AuthController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        <state relative-caret-position="83">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/autonomous/drone/service/MultiPointShapeServiceTest.groovy">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/service/RegisterService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="18" column="55" lean-forward="true" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+        <state relative-caret-position="413">
+          <caret line="27" column="57" lean-forward="true" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
           <folding>
-            <element signature="e#38#99#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/autonomous/drone/customException/NoPermissionException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="54" lean-forward="true" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/autonomous/drone/router/AuthControllerTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="101" column="41" selection-start-line="101" selection-start-column="41" selection-end-line="101" selection-end-column="41" />
+          <folding>
+            <element signature="e#37#90#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/com/autonomous/drone/router/MultiPointShapeControllerTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="247" column="1" lean-forward="true" selection-start-line="247" selection-start-column="1" selection-end-line="247" selection-end-column="1" />
+        <state relative-caret-position="1257">
+          <caret line="86" column="8" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="8" />
           <folding>
             <element signature="e#37#81#0" expanded="true" />
           </folding>

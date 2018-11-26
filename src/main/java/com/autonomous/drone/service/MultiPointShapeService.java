@@ -13,7 +13,7 @@ public class MultiPointShapeService {
     private MultiPointShapeRepository multiPointShapeRepository;
 
     public MultiPointShape saveMultiPointShape(MultiPointShape multiPointShape){
-            return multiPointShapeRepository.save(multiPointShape);
+        return multiPointShapeRepository.save(multiPointShape);
     }
 
     public MultiPointShape getMultiPointShapeById(String id) throws NotFoundException {
